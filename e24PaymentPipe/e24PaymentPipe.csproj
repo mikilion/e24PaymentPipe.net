@@ -53,14 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\BadResponseFromWebServiceException.cs" />
+    <Compile Include="NotificationMessage.cs" />
     <Compile Include="PaymentInitMessage.cs" />
+    <Compile Include="PaymentMessage.cs" />
     <Compile Include="PaymentPipe.cs" />
     <Compile Include="PaymentDetails.cs" />
     <Compile Include="PaymentServerUrlBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionDetails.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exceptions" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
